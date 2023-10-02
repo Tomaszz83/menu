@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "sass": "sass ./src/sass/main.scss ./src/css/app.css --watch"
+    "sass": "sass ./src/sass/main.scss ./src/css/app.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "normalize-scss": "^7.0.1",
+    "normalize.css": "^8.0.1",
     "sass": "^1.68.0"
   }
 }
